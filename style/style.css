@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Young Serif', serif;
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    padding: 0 15px;
+    min-height: 90vh;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgb(245, 224, 115), rgb(224, 17, 155));
+}
+
+.fruity {
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 90%;
+}
+
+.fruity .text {
+    margin-bottom: 90px;
+}
+
+.fruity h1 {
+    color: rgb(224, 17, 155);
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.fruity p {
+    font-size: 1.75rem;
+    white-space: nowrap;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background: #F5E073;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.form input {
+    height: 55px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    padding: 0 14px;
+}
+
+.form input:focus {
+    outline: none;
+    border-color: rgb(224, 17, 155);
+}
+
+::placeholder {
+    color: rgb(224, 17, 155);
+    font-size: 1.063rem;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+}
+
+.link .login {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: rgb(224, 17, 155);
+    padding: 16px 0;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: 0.2 ease;
+}
+
+.link .login:hover {
+    background: rgb(224, 17, 100);
+}
+
+.button {
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+    .fruity {
+        flex-direction: column;
+        text-align: center;
+    }
+    .fruity .text {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 460px) {
+    .fruity h1 {
+        font-size: 3.5rem;
+    }
+    .fruity p {
+        font-size: 1.3rem;
+    }
+    .form {
+        padding: 15px;
+    }
+}
+
+header {
+    background-color: #F5E073;
+    font-weight: bold;
+    display: flex;
+}
+
+.logo {
+    width: 100px;
+    padding-left: 10px;
+}
+
+p {
+    color: white;
+}
+
+h2 {
+    padding-top: 40px;
+    padding-left: 10px;
+}
