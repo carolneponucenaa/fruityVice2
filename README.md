@@ -1,5 +1,4 @@
-<<<<<<< HEAD
- # <img src="./img/cherry.png"  width="100" height="100" >
+# <img src="./img/cherry.png"  width="100" height="100" >
 
 <p> Venha conhecer FruitVyce! </p>
 <p> As frutas nos ajudam de diversas formas. Elas são fontes de hidratação, além de possuírem diversos minerais e vitaminas que são muito importantes para o nosso organismo. Pesquise e veja algumas imagens da fruta escolhida! </p>
@@ -29,8 +28,3 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg" width="80px">
 <img src="https://i0.wp.com/www.duomimikry.de/wp-content/uploads/2016/03/js-logo.png?fit=500%2C500&ssl=1" width="50px">
 
-
-=======
-
-# fruityVice2
->>>>>>> c78c70ca2cc332367ffff1542124e25c10efa9b0
