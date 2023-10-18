@@ -90,14 +90,14 @@ h1 {
 }
 
 h2 {
-    margin-top: -60px;
-    margin-left: 50px;
-    width: 400px;
+    margin-top: -3.75rem;
+    margin-left: 3.125rem;
+    width: 25rem;
 }
 
 #imagem-container {
-    margin-top: 80px;
-    margin-left: 150px;
+    margin-top: 5rem;
+    margin-left: 9.375rem;
 }
 
 .buscar {
@@ -106,9 +106,32 @@ h2 {
 }
 
 @media (max-width: 768px) {
-    header {
-        background-color: black;
-        width: 100%;
-        display: flex;
+    h2 {
+        width: 300px;
+        font-size: 20px;
+        text-align: justify;
+        padding-top: 3.75rem;
+    }
+    #btnPesquisa {
+        margin-bottom: 3rem;
+        margin-left: 15px;
+    }
+    .busca {
+        width: 15.625rem;
+        height: 2.5rem;
+        margin-left: 1rem;
+        margin-top: 3rem;
+        padding-left: 3rem;
+    }
+    .buscar {
+        align-items: center;
+        justify-content: center;
+        display: grid;
+    }
+    #imagem-container {
+        align-items: center;
+        justify-content: center;
+        margin-top: 5rem;
+        margin-left: 1.75rem;
     }
 }
