@@ -27,7 +27,3 @@
 <p><strong>CSS, HTML, JS</strong> </p>
 <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg" width="80px">
 <img src="https://i0.wp.com/www.duomimikry.de/wp-content/uploads/2016/03/js-logo.png?fit=500%2C500&ssl=1" width="50px">
-<<<<<<< HEAD
-=======
-
->>>>>>> adc0efa77bd62d69df4cefd336101b1ffdec2500
