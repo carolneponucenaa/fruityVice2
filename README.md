@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  # <img src="./img/cherry.png"  width="100" height="100" >
 
 <p> Venha conhecer FruitVyce! </p>
@@ -29,3 +30,7 @@
 <img src="https://i0.wp.com/www.duomimikry.de/wp-content/uploads/2016/03/js-logo.png?fit=500%2C500&ssl=1" width="50px">
 
 
+=======
+
+# fruityVice2
+>>>>>>> c78c70ca2cc332367ffff1542124e25c10efa9b0
